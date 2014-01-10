@@ -14,13 +14,9 @@
  * limitations under the License.
  */
 
-#ifdef MINGW32
+
 #include <winsock2.h>
 #include <windows.h>
-#else
-#include <arpa/inet.h>
-#include <sys/types.h>
-#endif
 
 
 #include <stdint.h>
